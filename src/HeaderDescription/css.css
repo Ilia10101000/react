@@ -1,0 +1,28 @@
+.mainHeaderDiv{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    border-radius: 10px;
+    color:#838080;
+    margin-bottom:10px
+
+}
+.descriptionDiv{
+    text-align: justify;
+    width:70%;
+    font-size: 22px;
+}
+@media screen and (min-width:480px){
+    .mainHeaderDiv{
+        min-width:680px;
+        width: 900px;
+    }
+}
+@media screen and (max-width:480px){
+    .mainHeaderDiv{
+        width: 100%;
+        min-width:480px;
+    }
+}
